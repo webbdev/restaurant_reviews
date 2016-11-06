@@ -1,0 +1,56 @@
+{
+    "id": "hawksmoor-spitalfields",
+    "name": "Hawksmoor Spitalfields",
+    "cuisine": "British",
+    "address": "157A Commercial St, London E1 6BJ, UK",
+    "phone": "+44 20 7426 4850",
+    "district": "Tower Hamlets",
+    "description": "Prime cuts of matured beef and other British classics served in stripped-back, bare-brick surrounds.",
+    "price": "££££",
+    "rating": "4.5",
+    "imageUrl": "/images/restaurants/hawksmoor-spitalfields-0.jpg",
+    "image_alt": "Restaurant Hawksmoor Spitalfields",
+    "images": [
+        "/images/restaurants/hawksmoor-spitalfields-0.jpg", 
+        "/images/restaurants/hawksmoor-spitalfields-1.jpg"
+     ],
+    "opening_hours": [
+        "12–3pm, 5–10:30pm",
+        "12–3pm, 5–10:30pm",
+        "12–3pm, 5–10:30pm",
+        "12–3pm, 5–10:30pm",
+        "12–3pm, 5–10:30pm",
+        "12–3pm, 5–10:30pm",
+        "12–9pm"
+    ],
+    "reviews": [
+        {
+            "author": "Daled Dotan",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "3 weeks ago",
+            "comment": "Do NOT miss this gem! It's expensive, but the  food and drinks are pure art, and the vibe and service couldn't be better. Went by myself (not so many places feel so inviting when dining alone!), ordered a perfect Sirloin, plus a surprisingly excellent cocktail based on bourbon and pineapple (yes, you heard me right. It actually tasted classy!). In short - best steak experience I had in years."
+        },
+        {
+            "author": "Steven Vos",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "4 weeks ago",
+            "comment": "Friendly staff. I wasn't there for a meal but the bar downstairs had a great relaxed atmosphere. Cocktails and their recommendation were excellent."
+        },
+        {
+            "author": "Dave",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "a month ago",
+            "comment": "Great service, friendly helpful staff... amazing steak..best ive had to be honest.. will defo be going back."
+        },
+        {
+            "author": "Lorenzo",
+            "rating_value": "4",
+            "stars": "4 ★★★★",
+            "date": "2 weeks ago",
+            "comment": "Top quality stake! Good selection of wine. Good cocktails. Attentive service. Only too expensive!"
+        }
+     ]
+}

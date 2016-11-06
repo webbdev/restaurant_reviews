@@ -1,0 +1,59 @@
+{
+    "id": "brasserie-zedel",
+    "name": "Brasserie Zédel",
+    "cuisine": "French",
+    "address": "20 Sherwood St, London W1F 7ED, UK",
+    "phone": "020 7734 4888",
+    "district": "City of Westminster",
+    "description": "Grand French art deco restaurant with classic brasserie dishes and choucroutes in 1930s building.",
+    "price": "££",
+    "rating": "4.3",
+    "imageUrl": "/images/restaurants/brasserie-zedel-0.jpg",
+    "image_alt": "Restaurant Brasserie Zedel",
+    "images": [
+        "/images/restaurants/brasserie-zedel-0.jpg", 
+        "/images/restaurants/brasserie-zedel-1.jpg", 
+        "/images/restaurants/brasserie-zedel-2.jpg", 
+        "/images/restaurants/brasserie-zedel-3.jpg", 
+        "/images/restaurants/brasserie-zedel-4.jpg"
+    ],
+    "opening_hours": [
+        "11:30am-12am",
+        "11:30am-12am",
+        "11:30am-12am",
+        "11:30am-12am",
+        "11:30am-12am",
+        "11:30am-12am",
+        "11:30am-11pm"
+    ],
+    "reviews": [
+        {
+            "author": "David Morton",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "2 weeks ago",
+            "comment": "Great atmosphere good service and tasty food. The decor is stunning worth a visit just to sit in such beautiful surroundings."
+        },
+        {
+            "author": "Harry Oxford",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "1 week ago",
+            "comment": "Always have an amazing time here. Food is fabulous, drinks are fabulous. Highly recommended. If you've never had it I would definitely suggest the escargot. It's served in a garlic butter and it's divine."
+        },
+        {
+            "author": "Peter",
+            "rating_value": "4",
+            "stars": "4 ★★★★",
+            "date": "3 weeks ago",
+            "comment": "Ambiance here is 5 stars. A grand dining room, high ceiling, live piano music played. And location right at the heart of London, Picadilly Circus. Food good be better. Sure, set menu is value proposition. Had the terrin as a starter and beef bourg. But both dishes decent, not great. The French bread is great however. And so is dessert. Despite food not being fantastic, will come again."
+        },
+        {
+            "author": "Phil and Diane",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "a month ago",
+            "comment": "We chose this restaurant at the last minute prior to going to the theater. We were extremely pleased with the overall look of it. Very classy. Prices reasonable, service excellent (many thanks to our great waiter Armine), and the meal was quite satisfactory. Overall, for us, an excellent choice."
+        }
+    ]
+}

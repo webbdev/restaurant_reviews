@@ -1,0 +1,66 @@
+{
+     "id": "gymkhana",
+     "name": "Gymkhana",
+     "cuisine": "Indian",
+     "address": "42 Albemarle St, London W1S 4JH, UK",
+     "phone": "020 3011 5900",
+     "district": "City of Westminster",
+     "description": "Tandoor oven roasts, sigri charcoal grills and seasonal curries at Raj-era themed Indian restaurant. ",
+     "price": "£££",
+     "rating": "4.4",
+     "imageUrl": "/images/restaurants/gymkhana-0.jpg",
+     "image_alt": "Restaurant Gymkhana",
+     "images": [
+        "/images/restaurants/gymkhana-0.jpg", 
+        "/images/restaurants/gymkhana-1.jpg", 
+        "/images/restaurants/gymkhana-2.jpg", 
+        "/images/restaurants/gymkhana-3.jpg", 
+        "/images/restaurants/gymkhana-4.jpg"
+     ],
+     "opening_hours": [
+        "12–2:30pm, 5:30–10:30pm",
+        "12–2:30pm, 5:30–10:30pm",
+        "12–2:30pm, 5:30–10:30pm",
+        "12–2:30pm, 5:30–10:30pm",
+        "12–2:30pm, 5:30–10:30pm",
+        "12–2:30pm, 5:30–10:30pm",
+        "Closed"
+     ],
+     "reviews": [
+        {
+            "author": "ant foulds",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "a week ago",
+            "comment": "Fabulous Indian food. Had the 5 course tasting menu, there was plenty. Couldn't fault the service or the food. Would definitely go back."
+        },
+        {
+            "author": "Graham Hine",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "3 months ago",
+            "comment": "Great service and food. Had one of their signature gin and tonics. Excellent. The food was delicious. I let the waiter recommend an appetizer and main, both delicious and well presented."
+        },
+        {
+            "author": "Haamid",
+            "rating_value": "4",
+            "stars": "4 ★★★★",
+            "date": "a month ago",
+            "comment": "Great food, staff make efforts but all coming in contact with guests lack experience and maturity. Average age well below 30. Over confidence that may be a risk it faces."
+        },
+        {
+            "author": "Sarah",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "a month ago",
+            "comment": "Reading the mixed reviews before we went for dinner I wasn't sure what to expect. But fantastic flavours and the charming staff made this an amazing night! Try the tasting menu, it is the best way to sample all the best things on the menu. I'll be back soon."
+        },
+        {
+            "author": "Michelle",
+            "rating_value": "3",
+            "stars": "3 ★★★",
+            "date": "a month ago",
+            "comment": "Overpriced and over hyped. Cocktails are also not worth the fuss. Food is good but price it's questionable."
+        }
+     ]
+}

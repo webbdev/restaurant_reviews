@@ -1,0 +1,59 @@
+{
+     "id": "the-wolseley",
+     "name": "The Wolseley",
+     "cuisine": "European",
+     "address": "160 Piccadilly, London W1J 9EB, UK",
+     "phone": "020 7499 6996",
+     "district": "City of Westminster",
+     "description": "Media types descend here for Modern European food, afternoon tea and grand art deco glamour.",
+     "price": "£££",
+     "rating": "4.3",
+     "imageUrl": "/images/restaurants/the-wolseley-0.jpg",
+     "image_alt": "Restaurant The Wolseley",
+     "images": [
+        "/images/restaurants/the-wolseley-0.jpg", 
+        "/images/restaurants/the-wolseley-1.jpg", 
+        "/images/restaurants/the-wolseley-2.jpg", 
+        "/images/restaurants/the-wolseley-3.jpg"
+     ],
+     "opening_hours": [
+        "7am-12am",
+        "7am-12am",
+        "7am-12am",
+        "7am-12am",
+        "7am-12am",
+        "8am-12am",
+        "8am-11pm"
+     ],
+     "author": "Rich",
+     "reviews": [
+        {
+           "author": "Rich",
+            "rating_value": "4",
+            "stars": "4 ★★★★",
+            "date": "a month ago",
+            "comment": "The Wolseley has long been one of our favorite spots to have Afternoon Tea when we’re in London. The atmosphere, level of service, and array of sandwiches, scones, desserts, tea, and champagne are exceptional. I continue to highly recommend the Wolseley, but if the weather is a bit warm, the temperature and humidity can turn a grand experience into a sweltering slog, to the point that my husband began to grow flush and had to leave the restaurant just to get some fresh air. We still love Afternoon Tea at The Wolseley, but will return only during cool months. We wish that management turned on air-conditioning, assuming that they had it … or invest in installing some sort of air circulation and cooling system. I really hate to harp on the temperature when the food, service, and atmosphere are so delightful, but we really could not enjoy the experience when feeling faint." 
+        },
+        {
+            "author": "Noel",
+            "rating_value": "3",
+            "stars": "3 ★★★",
+            "date": "3 weeks ago",
+            "comment": "Great atmosphere. But we ordered a half bottle of champagne for brunch which never arrived. Then the waiter came back to ask us to remind him what we'd ordered. Then I was initially brought the wrong plate of breakfast. When the right food and drinks did arrive they were good. Probably expect a smoother experience from a venue of this standing.."
+        },
+        {
+            "author": "James",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "2 months ago",
+            "comment": "Simply amazing. Great brunch atmosphere and decor. Delicious coffee. Can't wait for another special occasion to indulge."
+        },
+        {
+            "author": "Kerstin",
+            "rating_value": "4",
+            "stars": "4 ★★★★",
+            "date": "a month ago",
+            "comment": "Lovely dining room, great service. The menu is very traditional and well executed. Be sure to book."
+        }
+     ]
+}

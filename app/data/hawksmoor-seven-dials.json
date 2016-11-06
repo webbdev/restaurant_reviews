@@ -1,0 +1,56 @@
+{
+    "id": "hawksmoor-seven-dials",
+    "name": "Hawksmoor Seven Dials",
+    "cuisine": "British",
+    "address": "11 Langley St, London WC2H 9JG, UK",
+    "phone": "+44 20 7420 9390",
+    "district": "City of Westminster",
+    "description": "High-end steak specialist serving British dry-aged T-bone, D-rump and porterhouse, plus seafood.",
+    "price": "££££",
+    "rating": "4.6",
+    "imageUrl": "/images/restaurants/hawksmoor-seven-dials-0.jpg",
+    "image_alt": "Restaurant Hawksmoor Seven Dials",
+    "images": [
+        "/images/restaurants/hawksmoor-seven-dials-0.jpg", 
+        "/images/restaurants/hawksmoor-seven-dials-1.jpg"
+    ],
+    "opening_hours": [
+        "12–3pm, 5–10:30pm",
+        "12–3pm, 5–10:30pm",
+        "12–3pm, 5–10:30pm",
+        "12–3pm, 5–10:30pm",
+        "12–3pm, 5–11pm",
+        "12–3pm, 5–11pm",
+        "12–9:30pm"
+     ],
+    "reviews": [
+        {
+            "author": "Craig Duncan",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "2 weeks ago",
+            "comment": "Went for my wedding anniversary. I mentioned when booking and was very surprised that when we went in they remembered. Food is amazing and the steak is to die for. Lovely touch for dessert spelling. Happy anniversary in chocolate."
+        },
+        {
+            "author": "Aijia",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "3 weeks ago",
+            "comment": "One of the best steaks I've ever had. They have steaks in various portions and it's all good for sharing. Amazing sticky toffee pudding to die for. Great and warm service."
+        },
+        {
+            "author": "Alastair Maw",
+            "rating_value": "4",
+            "stars": "4 ★★★★",
+            "date": "2 months ago",
+            "comment": "It's all about the steak. Environs here are less posh than the one off Regent Street - smaller tables and less opulent & stuffy generally; pick according to your taste/mood. In common with Gaucho, sides are unjustifiably expensive - it's easy to add another ten quid on top of what it already a pretty pricey steak. I like it here, but it's of questionable value - go on a Monday night where BYOB is £5 corkage."
+        },
+        {
+            "author": "Stephen",
+            "rating_value": "4",
+            "stars": "4 ★★★★",
+            "date": "a month ago",
+            "comment": "Fantastic food and service. Chateaubriand for 4 and sides. A tad pricey but I didn't feel robbed as the food quality was top notch and the impeccable service made for a great evening. We'll be back."
+        }
+     ]
+}

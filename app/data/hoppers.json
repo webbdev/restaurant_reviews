@@ -1,0 +1,59 @@
+{
+    "id": "hoppers",
+    "name": "Hoppers",
+    "cuisine": "Sri Lankan",
+    "address": "49 Frith St, London W1D 4SG, UK",
+    "phone": "",
+    "district": "City of Westminster",
+    "description": "Family-style Sri Lankan cooking and inventive cocktails offered in vibrant, relaxed surroundings.",
+    "price": "£",
+    "rating": "4.5",
+    "imageUrl": "/images/restaurants/hoppers-0.jpg",
+    "image_alt": "Restaurant Hoppers",
+    "images": [
+        "/images/restaurants/hoppers-0.jpg", 
+        "/images/restaurants/hoppers-1.jpg", 
+        "/images/restaurants/hoppers-2.jpg", 
+        "/images/restaurants/hoppers-3.jpg", 
+        "/images/restaurants/hoppers-4.jpg"
+    ],
+    "opening_hours": [
+        "12-2:30pm, 5:30-10:30pm",
+        "12-2:30pm, 5:30-10:30pm",
+        "12-2:30pm, 5:30-10:30pm",
+        "12-2:30pm, 5:30-10:30pm",
+        "12-10:30pm",
+        "12-10:30pm",
+        "Closed"
+    ],
+    "reviews": [
+        {
+            "author": "Kyle Driscoll",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "a week ago",
+            "comment": "We went as a group of 8 people. The portions are average size but filling! Food is extremely tasty and original. Service was also good. Would highly recommend if you've never tried Sri Lankan food before."
+        },
+        {
+            "author": "Ben Spear",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "3 weeks ago",
+            "comment": "The best Sri Lankan food I've had outside of Sri Lanka! Get someone who can get down there to get you a table or you'll be waiting all night..."
+        },
+        {
+            "author": "Andy",
+            "rating_value": "3",
+            "stars": "3 ★★★",
+            "date": "a month ago",
+            "comment": "It's very rushed. Took a few tries to get in and felt under a lot of pressure to eat quickly and move on. Mains came almost immediately after starters and bill was presented almost as soon as plates were taken away. Food was very good though."
+        },
+        {
+            "author": "Rachael",
+            "rating_value": "4",
+            "stars": "4 ★★★★",
+            "date": "a month ago",
+            "comment": "Service a bit slow, we got our 'starters' before we got our drinks. Cocktails are so good! and all the food is incredible. Must get there early, the queues start before it opens. Note that you might be sat on table with other people so they can get more people in the restaurant."
+        }
+    ]
+}

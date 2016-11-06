@@ -1,0 +1,750 @@
+/*  css stylesheet */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+ /* font: 400 14px 'Georgia',"Times New Roman", times, serif; */
+  font: 400 14px 'Lora', "Times New Roman", times, serif;
+  line-height: 1.3;
+  color: #000;
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  outline: 0;
+  background-color: #fff;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* tables still need cellspacing="0" in the markup */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+caption, th, td {
+  font-weight: normal;
+  text-align: left;
+}
+
+textarea {
+  overflow: auto;
+}
+
+
+input {
+  line-height: normal;
+}
+
+header {
+  background-color: #cd3737;
+  color: #fff;
+  margin-top: 30px;
+}
+
+header h1 {
+ /* font-family: 'Oswald', sans-serif; */
+ font-family: 'Playfair Display', 'Times New Roman', Verdana, serif; 
+  font-size: 32px;
+  font-weight: 600;
+  margin: 20px 0;
+  float: left;
+}
+
+header h1 a,
+header h1 a:hover,
+header h1 a:visited,
+header h1 a:focus {
+  color: #fff; 
+  text-decoration:none;
+}
+
+header a {
+  float: right;
+}
+
+header img {
+  margin-left: 5px;
+  width: 70px;
+  height: 100%;
+}
+
+/*-- Restaurants --*/
+
+.r-filters {
+  margin: 50px 0;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e1e1e1;
+} 
+
+.form-control {
+  padding: 6px 10px;
+}
+
+input[type=search] {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: white;
+  background-image: url('../images/search-icon.png');
+  background-position: 3px 2px; 
+  background-repeat: no-repeat;
+  padding: 6px 8px 6px 37px !important;
+}
+
+option {
+  white-space: nowrap;
+}
+
+.btn-sort {
+  color: #555;
+  background-color: #fff;
+  display: inline-block;
+  padding: 6px 4px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+a.btn-sort {
+  width: 100%;
+  text-decoration: none;
+  -webkit-transition: all 1s; /* Safari */
+  transition: all 1s;
+}
+
+a.btn-sort:hover,
+a.btn-sort:visited,
+a.btn-sort:focus {
+  color: #555;
+}
+
+a.btn-sort:hover {
+  background-color: #e3e3e3;
+  -webkit-transition: all 1s; /* Safari */
+  transition: all 1s;
+}
+
+/*-- Restaurant --*/
+
+.thumb {
+  width: 100%;
+  height: 435px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.17);
+  /*  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; */
+}
+
+.thumb a {
+  display: block;
+  width: 100%;
+  height: 435px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+}
+
+.thumb a img {
+  width: 100%;
+  height: 280px;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  top: -30px;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.thumb a:hover img {
+  width: 100%;
+  height: 280px;
+  left: 0;
+  top: -10px;
+}
+
+.thumb a .hover-effect {
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+  background: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 8px 10px;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.thumb a:hover .hover-effect {
+  bottom: 60px;
+}
+
+.hover-effect h3 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+/* rating stars */
+.glyphicon-star {
+  color: #d43900;
+}
+
+.glyphicon-star-empty {
+  color: #d43900;
+}
+
+p.stars {
+  margin: 15px 0; 
+  color: #d43900; 
+  font-size: 15px;
+  text-shadow: 4px 4px 7px #ccc;
+}
+
+.stars span {
+  font-size: 15px;
+}
+
+.stars .ratingNum {
+  font-size: 16px;
+}
+
+.hover-effect p {
+  margin-bottom: 15px;
+}
+
+.thumb a .readMore {
+  background-color: #cd3737;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  padding: 17px 5px; 
+  position:absolute;
+  bottom: -52px;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+.thumb a:hover .readMore {
+  bottom: 0;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.footer {
+  margin: 20px auto;
+  text-align: center;
+}
+
+/*-- Restaurant info and Reviews --*/ 
+#restaurant-info {
+  margin-top: 60px;
+}
+
+.info h3 {
+  margin: 0;
+  font-family: 'Playfair Display', 'Times New Roman', Verdana, serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.info>p.stars {
+  margin: 15px 0; 
+  color: #d43900; 
+  font-size: 17px;
+  text-shadow: 4px 4px 7px #ccc
+}
+
+.info>p.stars span {
+  font-size: 17px;
+}
+
+.info p {
+  margin-bottom: 15px;
+}
+
+.open_hours {
+  cursor: pointer; 
+  color: #000;
+  font-weight: bold; 
+}
+
+.open_hours:hover,
+.open_hours:visited,
+.open_hours:focus {
+  text-decoration: none;
+} 
+
+.open_hours .fa {
+  margin-left: 7px;
+}
+
+.restaurant-thumbs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.restaurant-thumbs img {
+  height: 60px;
+  width: 60px;
+  padding: 0;
+}
+
+.restaurant-thumbs li {
+  background-color: white;
+  display: inline-block;
+  margin: 5px 10px 5px 0;
+}
+
+#reviews {
+  margin-top: 40px;
+}
+
+.review_btns {  
+  font-weight: 500; 
+  margin-bottom: 50px;
+}
+
+.read_review {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #373342;
+  margin: 0 0 5px 0;
+  padding: 5px 10px 5px 0;
+  float: left; 
+}
+
+.sort_by_rating {
+  padding: 0;
+  max-width: 150px; 
+  float: left;
+  vertical-align: middle;
+}
+
+.sort_by_rating>button.btn {
+  padding: 5px 12px;
+  margin: 0 0 10px 15px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.sortorder:after {
+  font-size: 13px;
+  margin-left: 4px;
+  color: #373342;
+  content: '\25b2';   /* Black Up-Pointing Triangle */
+}
+.sortorder.reverse:after {
+  content: '\25bc';   /* Black Down-Pointing Triangle */
+}
+
+a.write_review_btn,
+a.write_review_btn:visited {
+  font-size: 21px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #cc3737;
+  border: 1px solid #cd3737;
+  border-radius: 3px;
+  margin: 0 0 0 9%;
+  padding: 5px 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.write_review_btn:hover {
+  text-decoration: none;
+  color: #cd3737;
+  background-color: #fff;
+  border: 1px solid #cd3737;
+
+}
+
+.fa-pencil,
+.glyphicon-pencil {
+  margin-right: 5px;
+  font-size: 17px;
+}
+
+#add_review {
+  clear: both;
+  margin-top: 20px; 
+  font-size: 14px;
+}
+
+.help-block {
+  color: #d43900;
+}
+
+.btn-submit {
+  background-color: #cd3737; 
+  color: #fff;
+}
+
+.btn-submit:hover {
+  background-color: #dd3630; 
+  color: #fff;
+}
+
+.btn-submit:focus { 
+  color: #fff;
+}
+
+.review {
+  clear:both;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 15px 0 20px;
+}
+
+.review p {
+  margin: 0;
+}
+
+.review p.date {
+  color: #696969;
+  margin: 2px 0 10px;
+}
+
+span.rating-stars {
+  color: #d43900; 
+  margin-right: 5px; 
+  font-size: 14px;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .r-filters {
+    margin: 40px 0;
+    padding-bottom: 20px;
+  }
+
+  #restaurant-info {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  [class*="col-"] {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  [class*="col-"]:first-child {
+    padding-left: 15px;
+  }
+
+  [class*="col-"]:last-child {
+    padding-right: 15px;
+  }
+
+  .form-control {
+    padding: 6px 8px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+
+  header h1 { 
+    font-size: 29px;
+    margin: 19px 0;
+  }
+
+  header img { 
+    margin-left: 0;
+    width: 66px;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  [class*="col-"] {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  [class*="col-"]:first-child {
+    padding-left: 15px;
+  }
+
+  [class*="col-"]:last-child {
+    padding-right: 15px;
+  }
+
+  #restaurants .col-xs-6 {
+    display: block;
+  }
+
+  .r-filters {
+    margin: 40px 0;
+    padding-bottom: 20px;
+  }
+
+  .thumb {
+    margin-bottom: 30px;
+  }
+
+  /*-- Restaurant Info and Reviews --*/
+  #restaurant-info {
+    margin-top: 40px;
+  }
+
+  .restaurant_pics {
+    margin-top: 30px;
+  }
+
+  a.write_review_btn {
+    font-size: 21px;
+    margin: 0 0 0 8%;
+    padding: 5px 12px;
+    text-align: right;
+  }
+
+  .glyphicon-pencil {
+    margin-right: 5px;
+    font-size: 17px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .thumb {
+    margin-bottom: 30px;
+  }
+
+  .btn-sort {
+    text-align: left;
+    padding: 6px 12px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+
+  .sort_by_rating {
+    margin: 0; 
+  }
+
+  .sort_by_rating>button.btn {
+    padding: 3px 10px;
+    margin: 0 0 10px 5px;
+  }
+
+  a.write_review_btn {
+    font-size: 21px;
+    margin: 0 0 0 4%;
+    padding: 5px 8px;
+  }
+
+}
+
+@media screen and (max-width: 580px) {
+  .read_review {
+    font-size: 20px;
+    padding: 4px 5px 4px 0; 
+  }
+
+  .sort_by_rating>button.btn {
+    padding: 3px 8px;
+  }
+
+  a.write_review_btn {
+    font-size: 20px;
+    margin: 0 0 0 3%;
+    padding: 5px 8px;
+  }
+} 
+
+@media screen and (max-width: 480px) {
+   header {
+    margin-top: 20px;
+  }
+
+  header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 15px 0;
+  }
+
+  header img { 
+    margin-left: 0;
+    width: 60px;
+    display: none;
+  }
+
+  [class*="col-"] {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  #restaurants .col-xs-6 {
+    width: 100%;
+  }
+
+  .r-filters {
+    margin: 30px 0 !important;
+    padding-bottom: 10px;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+
+  #restaurant-info {
+    margin-top: 30px;
+  }
+
+  #reviews {
+    margin-top: 30px;
+  }
+
+  .review_btns {
+    margin-bottom: 40px;
+  }
+
+  .read_review {
+    font-size: 20px;
+    padding: 4px 5px 4px 0;
+    margin: 0 0 10px 0;
+  }
+
+  .sort_by_rating>button.btn {
+    padding: 3px 8px;
+    margin: 0 5px 15px 15px;
+  }
+
+  a.write_review_btn {
+    font-size: 19px;
+    margin:0;
+    padding: 4px 8px 5px;
+  }
+
+  .glyphicon-pencil {
+    margin-right: 3px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+   header {
+    margin-top: 20px;
+  }
+
+  header h1 {
+    font-size: 26px;
+    margin: 13px 0;
+  }
+
+  /*-- Restaurant info and Reviews --*/
+  #restaurant-info {
+    margin-top: 20px;
+  }
+
+  .info h3 {
+    font-size: 21px;
+  }
+
+  .info>p.stars {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+
+  .info>p.stars span {
+    font-size: 16px;
+  }
+
+  .info p {
+    margin-bottom: 10px;
+  }
+
+  .restaurant_pics {
+    margin-top: 20px;
+  }
+
+   #reviews {
+    margin-top: 20px;
+  }
+
+  .review_btns {
+    margin-bottom: 30px;
+  }
+
+  .sort_by_rating>button.btn {
+    padding: 3px 8px;
+    margin: 0 5px 15px 10px;
+  }
+
+  .review {
+    margin-bottom: 10px;
+    padding: 10px 0 15px;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+}

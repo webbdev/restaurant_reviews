@@ -1,0 +1,58 @@
+{
+    "id": "inamo",
+    "name": "Inamo",
+    "cuisine": "Japanese",
+    "address": "134-136 Wardour St, London W1F 8ZP",
+    "phone": "020 7851 7051",
+    "district": "City of Westminster",
+    "description": "Oriental fusion restaurant with colourful, space-age decor and interactive, table-top menu.",
+    "price": "£££",
+    "rating": "3.5",
+    "imageUrl": "/images/restaurants/inamo-0.jpg",
+    "image_alt": "Restaurant Inamo",
+     "images": [
+        "/images/restaurants/inamo-0.jpg", 
+        "/images/restaurants/inamo-1.jpg", 
+        "/images/restaurants/inamo-2.jpg", 
+        "/images/restaurants/inamo-3.jpg"
+     ],
+     "opening_hours": [
+        "5-11pm",
+        "5-11pm",
+        "5-11pm",
+        "12-3pm, 5-11:30pm",
+        "12pm-12am",
+        "12pm-12am",
+        "12-10:30pm"
+     ],
+     "reviews": [
+        {
+            "author": "Olaf Meul",
+            "rating_value": "3",
+            "stars": "3 ★★★",
+            "date": "a week ago",
+            "comment": "Nice to do once... Interactive tables are fun, food is okay, but service isn't great. Why wait in a cold basement when your table isn't ready?"
+        },
+        {
+            "author": "ke guo",
+            "rating_value": "4",
+            "stars": "4 ★★★★",
+            "date": "a week ago",
+            "comment": "Love this resturant food and service is always amazing. Would recommend the Korean chicken wings. Good first date choice as you can play games on the table."
+        },
+        {
+            "author": "Simon",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "a week ago",
+            "comment": "Excellent food, and incredibly fast service. Was cool ordering from the table top computers, and we both left absolutely full for a very reasonable £30 a head."
+        },
+        {
+            "author": "Mike",
+            "rating_value": "3",
+            "stars": "3 ★★★",
+            "date": "3 months ago",
+            "comment": "I went here recently with work and had a good time. The bar is a bit small and dark, but the restaurant is better. The food is decent, but not exceptional in any way. The best thing I had on be menu was surprisingly the green thai curry. The Pinot Noir was also pretty good for the price, but they kept running out of wine while we were there so had to change bottles throughout the night. The menu system could be frustrating, especially for the older generations."
+        }
+     ]
+}

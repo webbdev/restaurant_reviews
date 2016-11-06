@@ -1,0 +1,59 @@
+{
+    "id": "roka",
+    "name": "ROKA Charlotte Street",
+    "cuisine": "Japanese",
+    "address": "37 Charlotte St, London W1T 1RR, UK",
+    "phone": "020 7580 6464",
+    "district": "Camden",
+    "description": "Sushi and Japanese dishes in rustic, contemporary dining room with central, open grill kitchen.",
+    "price": "£££",
+    "rating": "4.3",
+    "imageUrl": "/images/restaurants/roka-0.jpg",
+    "image_alt": "Restaurant ROKA",
+    "images": [
+        "/images/restaurants/roka-0.jpg", 
+        "/images/restaurants/roka-1.jpg", 
+        "/images/restaurants/roka-2.jpg", 
+        "/images/restaurants/roka-3.jpg", 
+        "/images/restaurants/roka-4.jpg"
+    ],
+    "opening_hours": [
+        "12–3:30pm, 5:30–11:30pm",
+        "12–3:30pm, 5:30–11:30pm",
+        "12–3:30pm, 5:30–11:30pm",
+        "12–3:30pm, 5:30–11:30pm",
+        "12–3:30pm, 5:30–11:30pm",
+        "12:30–4pm, 5:30–11:30pm",
+        "12:30–4pm, 5:30–10:30pm"
+    ],
+    "reviews": [
+        {
+            "author": "Elizabeth",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "2 weeks ago",
+            "comment": "This is our favorite restaurant in London. The food upstairs is fresh and delicious, and they are very accommodating and careful with food allergies. The atmosphere is great in the bar downstairs, and the unique cocktails are worth the hefty price tag."
+        },
+        {
+            "author": "Arletta",
+            "rating_value": "3",
+            "stars": "3 ★★★",
+            "date": "a month ago",
+            "comment": "Nice place with modern deco. Unfortunately I have too say that food disapponted me. Everything was tasty but portions extremly small. We spend a lot of money and I left restaurant hungry. I could describe Roka as expensive place with stylish atmosphere. Service a bit slow."
+        },
+        {
+            "author": "Russell Hall",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "a month ago",
+            "comment": "Beautiful and fabulous. Great authentic Japanese food and the best sake bar in London downstairs. Service painfully slow at times. And warning: dishes can be disappointingly small. Expensive. Good for vegetarians."
+        },
+        {
+            "author": "Ella Marie",
+            "rating_value": "4",
+            "stars": "4 ★★★★",
+            "date": "3 months ago",
+            "comment": "Food was absolutely Beautiful... The ambience of the place was pretty and authentic .... The hospitality was friendly and professional .... Gorgeous food... Tasting menu was just gorgeous!!! The only thing I didn't like was how I requested a cocktail to be made and it tasted like water...the price of the drink was silly as the drink did not compliment the price at all... But other than that everything was wonderful."
+        }
+    ]
+}

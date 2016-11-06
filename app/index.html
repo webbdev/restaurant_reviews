@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en" ng-app="restaurantApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restaurant Reviews</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- bower:css -->
+    <!-- endbower -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <!-- build:css css/combined.css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- endbuild -->
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <!-- bower:js -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- endbower -->
+    <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-1.3.2.js"></script>
+    <!-- build:js js/combined.js -->
+    <script src="js/app.js"></script>  
+    <script src="js/restaurant-list.component.js"></script>
+    <script src="js/restaurant-detail.component.js"></script>
+    <!-- endbuild -->
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1><a href="#!/restaurants">London Restaurants Reviews</a></h1>
+        <a href="#!/restaurants" aria-hidden="true">
+          <img src="images/london.png" width="75" alt="London's Icon">
+        </a>  
+      </div>
+    </header>
+    <div ng-view></div>
+    <footer>
+      <p class="footer">Copyright &#169; 2016 Restaurant Reviews by T.</p>
+    </footer>
+  </body>
+</html>

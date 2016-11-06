@@ -1,0 +1,58 @@
+{
+     "id": "restaurant-gordon-ramsay",
+     "name": "Restaurant Gordon Ramsay",
+     "cuisine": "French",
+     "address": "68 Royal Hospital Rd, London SW3 4HP, UK",
+     "phone": "020 7352 4441",
+     "district": "Kensington and Chelsea",
+     "description": "Ramsay's flagship where Clare Smyth coaxes polished French dishes from carefully chosen ingredients",
+     "price": "££££",
+     "rating": "4.4",
+     "imageUrl": "/images/restaurants/gordon-ramsay-0.jpg",
+     "image_alt": "Restaurant Gordon Ramsay",
+     "images": [
+        "/images/restaurants/gordon-ramsay-0.jpg", 
+        "/images/restaurants/gordon-ramsay-1.jpg", 
+        "/images/restaurants/gordon-ramsay-2.jpg",
+        "/images/restaurants/gordon-ramsay-3.jpg"
+     ],
+     "opening_hours": [
+        "12–2:15pm, 6:30–10:15pm",
+        "12–2:15pm, 6:30–10:15pm",
+        "12–2:15pm, 6:30–10:15pm",
+        "12–2:15pm, 6:30–10:15pm",
+        "12–2:15pm, 6:30–10:15pm",
+        "Closed",
+        "Closed"
+     ],
+     "reviews": [
+        {
+           "author": "Unreal Demon",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "a month ago",
+            "comment": "Unbelivable, just unbelivable what you can make with food and with a very good service. I want once to work for gordon ramsay too, because the expectations werent high, but now they are owerwhealming :)."
+        },
+        {
+            "author": "A Shaffer",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "3 months ago",
+            "comment": "Fantastic experience. As you can imagine, this is not your average restaurant. Yes, it is expensive,  however,  the experience is worth the cost. Services was impeccable. The food was amazing, well prepared and a culinary wonder."
+        },
+        {
+            "author": "K E Querns Langley",
+            "rating_value": "5",
+            "stars": "5 ★★★★★",
+            "date": "a week ago",
+            "comment": "Brilliant restaurant! We visited the restaurant for it 10th anniversary and really enjoyed it. My partner is a chef at a Michelin-Starred restaurant in London and we were both very happy."
+        },
+        {
+            "author": "M Hague",
+            "rating_value": "3",
+            "stars": "3 ★★★",
+            "date": "3 weeks ago",
+            "comment": "Didnt get to sit at the table so had to sit at the bar. It was ok."
+        }
+    ]
+}

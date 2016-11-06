@@ -1,0 +1,111 @@
+<div class="container" id="restaurant-info">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="info">
+          <h3>{{$ctrl.restaurant.name}}</h3>
+          <p class="stars"><span class="ratingNum">{{$ctrl.restaurant.rating}}</span> - <uib-rating ng-model="$ctrl.restaurant.rating" max="5" read-only="true" aria-label="Rating {{restaurant.rating}} stars."></uib-rating></p>
+          <p><strong>Cuisine:</strong> {{$ctrl.restaurant.cuisine}}</p>
+          <p><strong>Price:</strong> {{$ctrl.restaurant.price}}</p>
+          <p>{{$ctrl.restaurant.description}}</p>
+          <p><strong>Address:</strong> {{$ctrl.restaurant.address}}</p>
+          <p><strong>Phone:</strong> {{$ctrl.restaurant.phone}}</p>
+          <a class="open_hours" tabindex="0" ng-click="isHoursExpanded = !isHoursExpanded" aria-label="opening Hours toggle.">Opening Hours <i class="fa fa-caret-down" ng-class="{'fa-caret-up': isHoursExpanded, 'fa-caret-down' : !isHoursExpanded}" aria-hidden="true"></i></a>
+          <div role="grid" uib-collapse="!isHoursExpanded">
+            <table class="table table-responsive" style="margin-top: 15px;">
+              <tbody>
+                <tr>
+                  <td>Monday</td>
+                  <td>{{$ctrl.restaurant.opening_hours[0]}}</td>
+                </tr>
+                <tr>
+                  <td>Tuesday</td>
+                  <td>{{$ctrl.restaurant.opening_hours[1]}}</td>
+                </tr>
+                <tr>
+                  <td>Wednesday</td>
+                  <td>{{$ctrl.restaurant.opening_hours[2]}}</td>
+                </tr>
+                <tr>
+                  <td>Thursday</td>
+                  <td>{{$ctrl.restaurant.opening_hours[3]}}</td>
+                </tr>
+                <tr>
+                  <td>Friday</td>
+                  <td>{{$ctrl.restaurant.opening_hours[4]}}</td>
+                </tr>
+                <tr>
+                  <td>Saturday</td>
+                  <td>{{$ctrl.restaurant.opening_hours[5]}}</td>
+                </tr>
+                <tr>
+                  <td>Sunday</td>
+                  <td>{{$ctrl.restaurant.opening_hours[6]}}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div><!-- End .info -->
+      </div>
+      <div class="col-sm-1"></div>
+      <div class="col-sm-5">
+        <div class="restaurant_pics">
+          <img ng-src="{{$ctrl.mainImageUrl}}" width="100%" height="100%" alt="{{$ctrl.restaurant.image_alt}}" />
+          <ul class="restaurant-thumbs">
+            <li ng-repeat="images in $ctrl.restaurant.images">
+              <img ng-src="{{images}}" ng-click="$ctrl.setImage(images)" alt="{{$ctrl.restaurant.image_alt}}" />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!-- End .row -->
+    <div class="row" id="reviews">
+      <div class="col-sm-10">
+        <div class="review_btns">
+          <h4 class="read_review">Read Reviews</h4>
+          <div class="sort_by_rating">
+            <button class="btn btn-default" ng-click="$ctrl.sortBy('stars')">Sort by Rating
+            <span class="sortorder" ng-show="$ctrl.propertyName === 'stars'" ng-class="{reverse: $ctrl.reverse}" aria-hidden="true"></span></button>
+          </div>
+          <a class="write_review_btn" tabindex="0" ng-click="isAddReviewExpanded = !isAddReviewExpanded"><span class="glyphicon glyphicon-pencil">...</span>write a review</a>
+          <div role="review form" id="add_review" uib-collapse="!isAddReviewExpanded">
+            <!--  Review Form -->
+            <form name="reviewForm" class="reviewForm" ng-submit="$ctrl.addReview()" novalidate>
+              <fieldset class="form-group">
+                <label for="rating-restaurant">Rate the Restaurant:</label><br>
+                <uib-rating ng-model="$ctrl.liveReviewStars" max="5" id="rating-restaurant" style="font-size:22px;" read-only="false" aria-hidden="false" required></uib-rating>
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="review_author">Name:</label>
+                <input ng-model="$ctrl.liveReviewAuthor" name="name" type="text" id="review_author" class="form-control" placeholder="John" required>
+                <p ng-show="reviewForm.name.$invalid && !reviewForm.name.$pristine" class="help-block">Your name is required.</p>
+              </fieldset>
+              <fieldset class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea ng-model="$ctrl.liveReviewComment" name="comment" id="comment" class="form-control" rows="4" ng-maxlength="300" placeholder="Write a short review..." required></textarea>
+                <p ng-show="reviewForm.comment.$invalid && !reviewForm.comment.$pristine" class="help-block">Comment is required.</p>
+              </fieldset>
+              <fieldset class="form-group">
+                <input type="submit" class="btn btn-submit" value="Submit Review" ng-disabled="reviewForm.$invalid">
+              </fieldset>
+            </form>
+          </div><!-- End #add_review -->
+        </div><!-- End .review_btns -->
+        <!--  Live Preview -->
+        <div class="review" ng-repeat="x in $ctrl.liveReviews">
+          <p><strong>{{x.author}}</strong></p>
+          <p class="date">{{ $ctrl.today | date: "dd/MM/y" }}</p>
+          <p class="comment"><span class="rating-stars">{{x.stars}}&nbsp;<uib-rating ng-model="x.stars" max="5" read-only="true" aria-label="Rating {{x.stars}} stars."></uib-rating></span>{{x.comment}}</p>
+        </div>
+        <!--  Restaurant Reviews List -->
+        <div class="review" ng-repeat="review in $ctrl.restaurant.reviews | orderBy:$ctrl.propertyName:$ctrl.reverse">
+          <p><strong>{{review.author}}</strong></p>
+          <p class="date">{{review.date}}</p>
+          <p class="comment"><span class="rating-stars">{{review.rating_value}}&nbsp;<uib-rating ng-model="review.rating_value" max="5" value="4" read-only="true" aria-label="Rating {{review.rating_value}} stars."></uib-rating></span>{{review.comment}}</p> 
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
+    </div><!-- End #reviews -->
+</div><!-- End #restaurant-info-->
+
+
+
